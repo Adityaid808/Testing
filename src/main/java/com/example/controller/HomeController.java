@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //Home Controller
 @Controller
 public class HomeController {
-	//home page controller
+	//home page controller view
 	@RequestMapping("/home")
 	public String homeView(Model map)
 	{
