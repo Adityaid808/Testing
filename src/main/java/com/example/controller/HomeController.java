@@ -9,14 +9,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+//Home Controller
 @Controller
 public class HomeController {
-	
+	//controller
 	@RequestMapping("/home")
 	public String homeView(Model map)
 	{
 		return "welcome";
 	}
+	
 	
 	@RequestMapping("/home1")
 	public String homeView1(Model map)
