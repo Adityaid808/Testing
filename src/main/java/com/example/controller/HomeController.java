@@ -26,5 +26,5 @@ public class HomeController {
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
 		return "welcome1";
 	}
-
+	
 }
