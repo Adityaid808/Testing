@@ -12,12 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //Home Controller
 @Controller
 public class HomeController {
-	//controller
+	//home page controller
 	@RequestMapping("/home")
 	public String homeView(Model map)
 	{
 		return "welcome";
 	}
+	
+	
 	
 	
 	@RequestMapping("/home1")
