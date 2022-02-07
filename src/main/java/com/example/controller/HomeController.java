@@ -21,7 +21,7 @@ public class HomeController {
 	
 	
 	
-	
+	//home page controller view
 	@RequestMapping("/home1")
 	public String homeView1(Model map)
 	{
