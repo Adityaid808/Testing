@@ -16,6 +16,7 @@ public class HomeController {
 	@RequestMapping("/home")
 	public String homeView(Model map)
 	{
+		System.out.println("Aditya");
 		return "welcome";
 	}
 	
