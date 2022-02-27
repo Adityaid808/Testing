@@ -26,6 +26,7 @@ public class HomeController {
 	@RequestMapping("/home1")
 	public String homeView1(Model map)
 	{
+        System.out.println("27-02-2022");
 		map.addAttribute("timestamp",LocalDateTime.now());
 		
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
