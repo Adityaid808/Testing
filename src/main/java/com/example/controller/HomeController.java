@@ -35,6 +35,7 @@ public class HomeController {
 		System.out.println(112);
 		System.out.println(1223344567);
 		System.out.println(0000);
+		System.out.println("last");
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
 		return "welcome1";
 	}
