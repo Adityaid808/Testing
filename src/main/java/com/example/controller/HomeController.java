@@ -30,8 +30,10 @@ public class HomeController {
         System.out.println("inside home 1 controller 2");
 		map.addAttribute("timestamp",LocalDateTime.now());
 		System.out.println("hello");
+		System.out.println(1234567);
+		System.out.println(112);
+		System.out.println(1223344567);
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
-		System.out.println(12);
 		return "welcome1";
 	}
 	
