@@ -28,6 +28,7 @@ public class HomeController {
 	{
         System.out.println("27-02-2022");
         System.out.println("inside home 1 controller 2");
+        System.out.println("done git");
 		map.addAttribute("timestamp",LocalDateTime.now());
 		
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
