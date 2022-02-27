@@ -28,6 +28,7 @@ public class HomeController {
 	{
         System.out.println("27-02-2022");
         System.out.println("inside home 1 controller 2");
+        System.out.println("done git");
 		map.addAttribute("timestamp",LocalDateTime.now());
 		System.out.println("hello");
 		System.out.println(1234567);
@@ -36,7 +37,7 @@ public class HomeController {
 		System.out.println(0000);
 		System.out.println("last");
 		System.out.println("1223344uhuhhuhuhuh567");
-System.out.println("x");
+	    System.out.println(8585);
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
 		return "welcome1";
 	}
