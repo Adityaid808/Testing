@@ -33,6 +33,7 @@ public class HomeController {
 		System.out.println(1234567);
 		System.out.println(112);
 		System.out.println(1223344567);
+		System.out.println(0000);
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
 		return "welcome1";
 	}
