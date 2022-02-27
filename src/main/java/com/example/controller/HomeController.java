@@ -31,6 +31,7 @@ public class HomeController {
 		map.addAttribute("timestamp",LocalDateTime.now());
 		System.out.println("hello");
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
+		System.out.println(12);
 		return "welcome1";
 	}
 	
