@@ -26,11 +26,8 @@ public class HomeController {
 	@RequestMapping("/home1")
 	public String homeView1(Model map)
 	{
-        System.out.println("27-02-2022");
-        System.out.println("inside home 1 controller 2");
-        System.out.println("done gitttt");
 		map.addAttribute("timestamp",LocalDateTime.now());
-		
+		System.out.println("hello");
 		map.addAttribute("arraylist",Arrays.asList(10,56,72,36,45));
 		return "welcome1";
 	}
